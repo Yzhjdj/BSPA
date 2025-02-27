@@ -1,23 +1,26 @@
-这个代码用于解决二维条带装箱问题。
+# 这个代码用于解决二维条带装箱问题。
 
 可直接运行jar文件，命令如下
 
-单个问题的处理：
+## 单个问题的处理：
 
-java -jar 'jar文件路径' 'problem_n.txt所在的文件夹路径' '结果输出文件夹的路径' '运行时间' '并行线程数' '1(默认值)' '参数b的值' 'minFillRate' 'n'
+`java -jar 'jar文件路径' 'problem_n.txt所在的文件夹路径' '结果输出文件夹的路径' '运行时间' '并行线程数' '1(默认值)' '参数b的值' 'minFillRate' 'n'`
 
-eg : java -jar C:\out\artifacts\BSGT_jar\BSPA.jar C:\dateset\C C:\outcome 30 16 1 0.1 1 21 
+`eg : java -jar C:\out\artifacts\BSGT_jar\BSPA.jar C:\dateset\C C:\outcome 30 16 1 0.1 1 21 `
 
 这个指令将会处理C:\dateset\C目录下problem21.txt这个问题同时将结果输出于C:\outcome,运行时间为30s，并行数量为16，b=0.1，minFillRate=1
 
 
-处理整个数据集
+## 处理整个数据集
 
-java -jar 'jar文件路径' '数据集的文件夹路径' '结果输出文件夹的路径' '运行时间' '并行线程数' '1这个值(默认值)' '参数b的值' 'minFillRate'
+`java -jar 'jar文件路径' '数据集的文件夹路径' '结果输出文件夹的路径' '运行时间' '并行线程数' '1这个值(默认值)' '参数b的值' 'minFillRate'`
 
-eg : java -jar C:\out\artifacts\BSGT_jar\BSPA.jar C:\dateset\C C:\Coutcome 30 16 1 0.1 1
+`eg : java -jar C:\out\artifacts\BSGT_jar\BSPA.jar C:\dateset\C C:\Coutcome 30 16 1 0.1 1`
 
 这个指令将会处理C:\dateset\C目录下的所有problem同时将结果输出于C:\Coutcome,运行时间为30s，并行数量为16，b=0.1，minFillRate=1
+
+## 运行环境
+Java 8
 
 
 # 2D Strip Packing Problem Solver
@@ -53,4 +56,7 @@ To process an entire dataset, use the following command format:
 
 This will process all problems in the `C:\dataset\C` directory, saving the results in the `C:\Coutcome` folder. The algorithm will run for 30 seconds, using 16 parallel threads, with `b=0.1` and `minFillRate=1`.
 
+## Requirements
+
+- Java 8 
 

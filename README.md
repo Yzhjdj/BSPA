@@ -1,6 +1,6 @@
-# 这个代码用于解决二维条带装箱问题。
+# BSPA
 
-- 可直接运行jar文件，命令如下
+- 可直接运行jar文件，单个问题处理和整个数据集的处理命令如下
 
 ## 单个问题的处理：
 
@@ -8,7 +8,7 @@
 
 - `eg : java -jar C:\out\artifacts\BSGT_jar\BSPA.jar C:\dateset\C C:\outcome 30 16 1 0.1 1 21 `
 
-- 这个指令将会处理`C:\dateset\C`目录下`problem21.txt`这个问题同时将结果输出于`C:\outcome`,运行时间为30s，并行数量为16，`b=0.1`，`minFillRate=1`
+- 这个指令将会处理`C:\dateset\C`目录下`problem21.txt`这个问题，同时将结果输出于`C:\outcome`,运行时间为30s，并行数量为16，`b=0.1`，`minFillRate=1`
 
 
 ## 处理整个数据集

@@ -1,4 +1,4 @@
-# BSPA(The code will be made public once the article is accepted.)
+# BSPA(The code will be made public once the paper is accepted.)
 
 - 可直接运行jar文件，单个问题处理和整个数据集的处理命令如下
 

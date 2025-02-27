@@ -21,3 +21,19 @@ To process the entire dataset, use the following command:
 java -jar 'path to the jar file' 'path to the dataset folder' 'path to the output folder' 'runtime' 'number of parallel threads' '1 (default value)' 'value of parameter b' 'minFillRate'
 For example: java -jar C:\out\artifacts\BSGT_jar\BSPA.jar C:\dateset\C C:\Coutcome 30 16 1 0.1 1
 This command will process all problems in the C:\dateset\C directory and output the results to C:\Coutcome. The runtime is 30 seconds, the number of parallel threads is 16, b = 0.1, and minFillRate = 1.
+
+# 2D Strip Packing Problem Solver
+
+This repository contains code for solving the **two-dimensional strip packing problem** using a beam search-based algorithm. The solution is packaged as a runnable JAR file that can be executed with Java.
+
+## Usage
+
+### Running the JAR File
+
+You can directly run the JAR file using the following commands:
+
+### Process a Single Problem
+
+To solve a single problem instance, use the following command format:
+
+

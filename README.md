@@ -19,7 +19,10 @@
 
 - 这个指令将会处理`C:\dateset\C`目录下的所有problem同时将结果输出于`C:\Coutcome`,运行时间为30s，并行数量为16，`b=0.1`，`minFillRate=1`
 
-## 3.运行环境
+## 3.计算结果平均值
+- CalculateAvgDSP中的代码用于计算上述处理结果的平均值，输入参数为结果输出文件夹的路径eg：`C:\Coutcome`
+
+## 4.运行环境
 - Java 8
 
 

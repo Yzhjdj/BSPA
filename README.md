@@ -1,31 +1,5 @@
 # BSPA(The code will be made public once the paper is accepted.)
 
-- 可直接运行jar文件，单个问题处理和整个数据集的处理命令如下
-
-## 1.单个问题的处理
-
-- `java -jar 'jar文件路径' 'problem_n.txt所在的文件夹路径' '结果输出文件夹的路径' '运行时间' '并行线程数' '1(默认值)' '参数b的值' 'minFillRate' 'n'`
-
-- `eg : java -jar C:\out\artifacts\BSGT_jar\BSPA.jar C:\dateset\C C:\outcome 30 16 1 0.1 1 21 `
-
-- 这个指令将会处理`C:\dateset\C`目录下`problem21.txt`这个问题，同时将结果输出于`C:\outcome`,运行时间为30s，并行数量为16，`b=0.1`，`minFillRate=1`
-
-
-## 2.处理整个数据集
-
-- `java -jar 'jar文件路径' '数据集的文件夹路径' '结果输出文件夹的路径' '运行时间' '并行线程数' '1这个值(默认值)' '参数b的值' 'minFillRate'`
-
-- `eg : java -jar C:\out\artifacts\BSGT_jar\BSPAForSet.jar C:\dateset\C C:\Coutcome 30 16 1 0.1 1`
-
-- 这个指令将会处理`C:\dateset\C`目录下的所有problem同时将结果输出于`C:\Coutcome`,运行时间为30s，并行数量为16，`b=0.1`，`minFillRate=1`
-
-## 3.计算结果平均值
-- CalculateAvgDSP中的代码用于计算上述处理结果的平均值，输入参数为结果输出文件夹的路径eg：`C:\Coutcome`
-
-## 4.运行环境
-- Java 8
-
-
 # 2D Strip Packing Problem Solver
 
 This repository contains code for solving the **two-dimensional strip packing problem** using a beam search-based algorithm. The solution is packaged as a runnable JAR file that can be executed with Java.

@@ -35,5 +35,5 @@ This will process all problems in the `C:\dataset\C` directory, saving the resul
 
 ## Requirements
 
-- Java 8 
+Java 8 
 

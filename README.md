@@ -1,5 +1,4 @@
-# BSPA(The code will be made public once the paper is accepted.)
-
+# BSPA
 # 2D Strip Packing Problem Solver
 
 This repository contains code for solving the **two-dimensional strip packing problem** using a beam search-based algorithm. The solution is packaged as a runnable JAR file that can be executed with Java.
